@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.description {
+  font-size: 1em;
+  width: 100%;
+}
+
+.description a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description p {
+  margin: 0;
+  background-color: rgba(var(--callout-rgb), 0.5);
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+}
